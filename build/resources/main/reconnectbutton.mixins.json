@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.denied403.reconnectbutton.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"ConnectScreenMixin",
+		"DisconnectedScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "reconnectbutton",
+	"version": "${version}",
+	"name": "Reconnect Button",
+	"description": "Adds a Reconnect button below Return to server list on the disconnect screen.",
+	"authors": [
+		"403Denied"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/reconnectbutton",
+		"github": "https://github.com/403denied/reconnectbutton"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/reconnectbutton/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.denied403.reconnectbutton.ReconnectButton"
+		]
+	},
+	"mixins": [
+		"reconnectbutton.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": ">=26.1.2",
+		"fabric-api": "*"
+	}
+}
