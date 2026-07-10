@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6251de93-d7ff-467e-bc9c-a89adb9c0c22" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/reconnect-button-1.0.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/reconnect-button-1.0.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/reconnect-button-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/reconnect-button-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +52,12 @@
                 <item name="Reconnect-Button" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Reconnect-Button" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -66,7 +76,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/403Denied/Reconnect-Button.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/403Denied/reconnectbutton.git&quot;,
     &quot;accountId&quot;: &quot;30115c64-ddc7-42a3-8041-ec06144368a2&quot;
   }
 }</component>
@@ -76,61 +86,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.1422691691476911E-6" />
-      <entry key="MS500" value="0.1715569651380689" />
-      <entry key="S2" value="2.3525307019609105" />
-      <entry key="S5" value="4.182428290812494" />
-      <entry key="S10" value="5.234008985034029" />
-      <entry key="S30" value="6.321149466147681" />
-      <entry key="S60" value="7.094782639364678" />
-      <entry key="M2" value="8.52504498024435" />
-      <entry key="M5" value="11.784411722901652" />
-      <entry key="M10" value="15.630174223276635" />
-      <entry key="M15" value="18.06337238142534" />
-      <entry key="M30" value="21.633945352464377" />
-      <entry key="H1" value="24.186723670511224" />
-      <entry key="H2" value="27.33684560313249" />
-      <entry key="H4" value="32.94588077959204" />
-      <entry key="D1" value="46.288155567007365" />
-      <entry key="W1" value="50.26608402342448" />
+      <entry key="MS100" value="1.0000000026525002" />
+      <entry key="MS500" value="1.019263317585372" />
+      <entry key="S2" value="1.372548458866199" />
+      <entry key="S5" value="1.6737101780215047" />
+      <entry key="S10" value="1.8207985002553944" />
+      <entry key="S30" value="1.9362938801666871" />
+      <entry key="S60" value="1.967622798494686" />
+      <entry key="M2" value="1.9836781986476502" />
+      <entry key="M5" value="1.9934393185435297" />
+      <entry key="M10" value="1.9991596901457136" />
+      <entry key="M15" value="2.0502579631414957" />
+      <entry key="M30" value="3.1646605166137953" />
+      <entry key="H1" value="7.613978891365651" />
+      <entry key="H2" value="15.170656837263866" />
+      <entry key="H4" value="24.868230280911206" />
+      <entry key="D1" value="45.55539811792654" />
+      <entry key="W1" value="51.83100479155967" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0000000000008729" />
-      <entry key="M15" value="1.0000000208371822" />
-      <entry key="M30" value="1.000499160013847" />
-      <entry key="H1" value="1.0773601526642504" />
-      <entry key="H2" value="1.9633873532132131" />
-      <entry key="H4" value="4.400000690120391" />
-      <entry key="D1" value="10.725139958829377" />
-      <entry key="W1" value="12.645025275718503" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="4.6239754212347724E-229" />
+      <entry key="S30" value="7.73283076511197E-77" />
+      <entry key="S60" value="8.793651553883613E-39" />
+      <entry key="M2" value="9.377447176008838E-20" />
+      <entry key="M5" value="2.448126475050814E-8" />
+      <entry key="M10" value="1.5646489942012837E-4" />
+      <entry key="M15" value="0.002903652404820301" />
+      <entry key="M30" value="0.05391244607770331" />
+      <entry key="H1" value="0.2500904240113217" />
+      <entry key="H2" value="0.9459628179650419" />
+      <entry key="H4" value="3.0541248253033966" />
+      <entry key="D1" value="10.09195506254904" />
+      <entry key="W1" value="12.535576793652822" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.4159232104289343E-4" />
-      <entry key="MS500" value="0.36985088893535506" />
-      <entry key="S2" value="3.0020322999732754" />
-      <entry key="S5" value="5.018731810142397" />
-      <entry key="S10" value="6.147236933952048" />
-      <entry key="S30" value="7.2909799572800225" />
-      <entry key="S60" value="8.079465590630758" />
-      <entry key="M2" value="9.516083377444989" />
-      <entry key="M5" value="12.77395222749282" />
-      <entry key="M10" value="16.618612800109506" />
-      <entry key="M15" value="19.05283321620167" />
-      <entry key="M30" value="22.627077793391532" />
-      <entry key="H1" value="25.259671230500693" />
-      <entry key="H2" value="29.297687866375576" />
-      <entry key="H4" value="37.34437078219301" />
-      <entry key="D1" value="57.0129567984318" />
-      <entry key="W1" value="62.91105728989588" />
+      <entry key="MS100" value="0.9265880636895676" />
+      <entry key="MS500" value="1.0026908759559947" />
+      <entry key="S2" value="1.3615826545573144" />
+      <entry key="S5" value="1.6669764860108465" />
+      <entry key="S10" value="1.8168564731212096" />
+      <entry key="S30" value="1.9348290948892934" />
+      <entry key="S60" value="1.9668699406834789" />
+      <entry key="M2" value="1.9832965245385281" />
+      <entry key="M5" value="1.9932853974439853" />
+      <entry key="M10" value="1.999237159395601" />
+      <entry key="M15" value="2.053079507951199" />
+      <entry key="M30" value="3.2181502264007023" />
+      <entry key="H1" value="7.863032114457208" />
+      <entry key="H2" value="16.115386978637098" />
+      <entry key="H4" value="27.9213032843617" />
+      <entry key="D1" value="55.64703391317272" />
+      <entry key="W1" value="64.36652994934231" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -141,34 +151,34 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Reconnect-Button [build].executor": "Run",
-    "Gradle.Reconnect-Button [clean].executor": "Run",
-    "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/403denied/Desktop/codeprojects/Reconnect-Button/src/main/resources/assets/reconnectbutton",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Reconnect-Button [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Reconnect-Button [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/403denied/Desktop/codeprojects/Reconnect-Button/src/main/resources/assets/reconnectbutton&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/assets/reconnectbutton" />
@@ -250,7 +260,7 @@
       <workItem from="1783625823645" duration="4050000" />
       <workItem from="1783652965770" duration="301000" />
       <workItem from="1783653277884" duration="2579000" />
-      <workItem from="1783707147537" duration="141000" />
+      <workItem from="1783707147537" duration="3174000" />
     </task>
     <servers />
   </component>
