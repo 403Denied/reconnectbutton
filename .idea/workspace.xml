@@ -4,17 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6251de93-d7ff-467e-bc9c-a89adb9c0c22" name="Changes" comment="">
+    <list default="true" id="6251de93-d7ff-467e-bc9c-a89adb9c0c22" name="Changes" comment="Update Minecraft dependency version and modify workspace settings">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/denied403/reconnectbutton/mixin/ConnectScreenMixin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/denied403/reconnectbutton/mixin/ConnectScreenMixin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/denied403/reconnectbutton/mixin/DisconnectedScreenMixin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/denied403/reconnectbutton/mixin/DisconnectedScreenMixin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/reconnect-button-1.0.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/reconnect-button-1.0.0-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/reconnect-button-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/reconnect-button-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ConnectScreenMixin.class.uniqueId1" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ConnectScreenMixin.class.uniqueId1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DisconnectedScreenMixin.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DisconnectedScreenMixin.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ReconnectButtonMod.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denied403/reconnectbutton/mixin/ConnectScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denied403/reconnectbutton/mixin/ConnectScreenMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denied403/reconnectbutton/mixin/DisconnectedScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denied403/reconnectbutton/mixin/DisconnectedScreenMixin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,61 +96,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000026525002" />
-      <entry key="MS500" value="1.019263317585372" />
-      <entry key="S2" value="1.372548458866199" />
-      <entry key="S5" value="1.6737101780215047" />
-      <entry key="S10" value="1.8207985002553944" />
-      <entry key="S30" value="1.9362938801666871" />
-      <entry key="S60" value="1.967622798494686" />
-      <entry key="M2" value="1.9836781986476502" />
-      <entry key="M5" value="1.9934393185435297" />
-      <entry key="M10" value="1.9991596901457136" />
-      <entry key="M15" value="2.0502579631414957" />
-      <entry key="M30" value="3.1646605166137953" />
-      <entry key="H1" value="7.613978891365651" />
-      <entry key="H2" value="15.170656837263866" />
-      <entry key="H4" value="24.868230280911206" />
-      <entry key="D1" value="45.55539811792654" />
-      <entry key="W1" value="51.83100479155967" />
+      <entry key="MS100" value="1.069830446314739" />
+      <entry key="MS500" value="1.598543002578542" />
+      <entry key="S2" value="2.201517020476695" />
+      <entry key="S5" value="2.5869423622511527" />
+      <entry key="S10" value="2.7729738705173137" />
+      <entry key="S30" value="2.919190516270798" />
+      <entry key="S60" value="2.958913476622417" />
+      <entry key="M2" value="2.9792831356886653" />
+      <entry key="M5" value="2.991671466944182" />
+      <entry key="M10" value="2.998273031209763" />
+      <entry key="M15" value="3.049651703769665" />
+      <entry key="M30" value="4.164192588434814" />
+      <entry key="H1" value="8.613415967322517" />
+      <entry key="H2" value="16.17009602106927" />
+      <entry key="H4" value="25.86777062266057" />
+      <entry key="D1" value="46.555257777717095" />
+      <entry key="W1" value="52.830981981079084" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="4.6239754212347724E-229" />
-      <entry key="S30" value="7.73283076511197E-77" />
-      <entry key="S60" value="8.793651553883613E-39" />
-      <entry key="M2" value="9.377447176008838E-20" />
-      <entry key="M5" value="2.448126475050814E-8" />
-      <entry key="M10" value="1.5646489942012837E-4" />
-      <entry key="M15" value="0.002903652404820301" />
-      <entry key="M30" value="0.05391244607770331" />
-      <entry key="H1" value="0.2500904240113217" />
-      <entry key="H2" value="0.9459628179650419" />
-      <entry key="H4" value="3.0541248253033966" />
-      <entry key="D1" value="10.09195506254904" />
-      <entry key="W1" value="12.535576793652822" />
+      <entry key="S10" value="4.502523260324315E-229" />
+      <entry key="S30" value="7.664526351264599E-77" />
+      <entry key="S60" value="8.754728066173499E-39" />
+      <entry key="M2" value="9.356670383300621E-20" />
+      <entry key="M5" value="2.4459553910032262E-8" />
+      <entry key="M10" value="1.5639550476300452E-4" />
+      <entry key="M15" value="0.0029027937975061933" />
+      <entry key="M30" value="0.05390447455829858" />
+      <entry key="H1" value="0.2500719340844855" />
+      <entry key="H2" value="0.9459278484002107" />
+      <entry key="H4" value="3.054068373611476" />
+      <entry key="D1" value="10.091923972773827" />
+      <entry key="W1" value="12.535571276828824" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9265880636895676" />
-      <entry key="MS500" value="1.0026908759559947" />
-      <entry key="S2" value="1.3615826545573144" />
-      <entry key="S5" value="1.6669764860108465" />
-      <entry key="S10" value="1.8168564731212096" />
-      <entry key="S30" value="1.9348290948892934" />
-      <entry key="S60" value="1.9668699406834789" />
-      <entry key="M2" value="1.9832965245385281" />
-      <entry key="M5" value="1.9932853974439853" />
-      <entry key="M10" value="1.999237159395601" />
-      <entry key="M15" value="2.053079507951199" />
-      <entry key="M30" value="3.2181502264007023" />
-      <entry key="H1" value="7.863032114457208" />
-      <entry key="H2" value="16.115386978637098" />
-      <entry key="H4" value="27.9213032843617" />
-      <entry key="D1" value="55.64703391317272" />
-      <entry key="W1" value="64.36652994934231" />
+      <entry key="MS100" value="0.13453450399523853" />
+      <entry key="MS500" value="1.176042136953438" />
+      <entry key="S2" value="2.067308980155837" />
+      <entry key="S5" value="2.5287161542994165" />
+      <entry key="S10" value="2.7428696383157978" />
+      <entry key="S30" value="2.908905628159226" />
+      <entry key="S60" value="2.953737634386591" />
+      <entry key="M2" value="2.9766866943455033" />
+      <entry key="M5" value="2.9906308474268615" />
+      <entry key="M10" value="2.9979069502874833" />
+      <entry key="M15" value="3.052176715181745" />
+      <entry key="M30" value="4.217526528742218" />
+      <entry key="H1" value="8.862376844204496" />
+      <entry key="H2" value="17.114754271279903" />
+      <entry key="H4" value="28.92076871010677" />
+      <entry key="D1" value="56.646859403522214" />
+      <entry key="W1" value="65.3665011819671" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -148,6 +158,21 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3GHQ4Gy9VkIclj6iVI8HCYRG1ca" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -261,7 +286,17 @@
       <workItem from="1783652965770" duration="301000" />
       <workItem from="1783653277884" duration="2579000" />
       <workItem from="1783707147537" duration="3174000" />
+      <workItem from="1783715557446" duration="1510000" />
     </task>
+    <task id="LOCAL-00001" summary="Update Minecraft dependency version and modify workspace settings">
+      <option name="closed" value="true" />
+      <created>1783715596186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783715596186</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,5 +306,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Update Minecraft dependency version and modify workspace settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Minecraft dependency version and modify workspace settings" />
   </component>
 </project>

@@ -15,9 +15,8 @@ import net.minecraft.client.multiplayer.resolver.ServerAddress;
 
 @Mixin(ConnectScreen.class)
 public class ConnectScreenMixin {
-
 	@Inject(method = "startConnecting", at = @At("HEAD"))
-	private static void reconnectbutton$onStartConnecting(Screen parent, Minecraft minecraft, ServerAddress hostAndPort, ServerData data, boolean isQuickPlay, TransferState transferState, CallbackInfo ci) {
+	private static void onStartConnecting(Screen parent, Minecraft minecraft, ServerAddress hostAndPort, ServerData data, boolean isQuickPlay, TransferState transferState, CallbackInfo ci) {
 		LastConnectionAttempt.set(hostAndPort, data, isQuickPlay, transferState);
 	}
 }

@@ -31,12 +31,12 @@ public abstract class DisconnectedScreenMixin extends Screen {
 	}
 
 	@Inject(method = "init", at = @At("TAIL"))
-	private void reconnectbutton$addReconnectButton(CallbackInfo ci) {
+	private void addReconnectButton(CallbackInfo ci) {
 		if (!LastConnectionAttempt.isAvailable()) {
 			return;
 		}
 
-		Button reconnectButton = Button.builder(Component.literal("Reconnect"), _ -> ConnectScreen.startConnecting(parent, this.minecraft, LastConnectionAttempt.getAddress(), LastConnectionAttempt.getServerData(), LastConnectionAttempt.isQuickPlay(), LastConnectionAttempt.getTransferState())).width(200).build();
+		Button reconnectButton = Button.builder(Component.literal("Reconnect"), _ -> ConnectScreen.startConnecting(parent, minecraft, LastConnectionAttempt.getAddress(), LastConnectionAttempt.getServerData(), LastConnectionAttempt.isQuickPlay(), LastConnectionAttempt.getTransferState())).width(200).build();
 
 		layout.addChild(reconnectButton);
 		layout.arrangeElements();
